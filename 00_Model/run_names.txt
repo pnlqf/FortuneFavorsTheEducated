@@ -1,0 +1,81 @@
+All run names — copy-paste into SELECTED_RUNS in runs.py
+────────────────────────────────────────────────────────────────────────────────
+
+THE BASE
+"baseline_overview",
+"benchmark_econ_vs_primary",
+"baseline_econ_avg_vs_masters_avg",
+"baseline_masters_avg_vs_primary_avg",
+
+
+DECOMPOSITION  —  (0,0) → (2,2)
+"decomp_D1_uncertainty",
+"decomp_D2_repl_rate",
+"decomp_D3_income",
+"decomp_D4_a0",
+"decomp_D5_own_tau",
+"decomp_D6_parent_tau",
+
+DECOMPOSITION  —  (0,0) → (1,1)
+"decomp_01_D1_uncertainty",
+"decomp_01_D2_repl_rate",
+"decomp_01_D3_income",
+"decomp_01_D4_a0",
+"decomp_01_D5_own_tau",
+"decomp_01_D6_parent_tau",
+
+DECOMPOSITION  —  (1,1) → (2,2)
+"decomp_12_D1_uncertainty",
+"decomp_12_D2_repl_rate",
+"decomp_12_D3_income",
+"decomp_12_D4_a0",
+"decomp_12_D5_own_tau",
+"decomp_12_D6_parent_tau",
+
+
+WELFARE  —  Primary (0) vs Econ (2)
+"welfare_00_vs_02",
+"welfare_00_vs_20",
+"welfare_20_vs_22",
+"welfare_02_vs_22",
+"welfare_00_vs_22",
+
+WELFARE  —  Primary (0) vs Masters (1)
+"welfare_00_vs_01",
+"welfare_00_vs_10",
+"welfare_10_vs_11",
+"welfare_01_vs_11",
+"welfare_00_vs_11",
+
+WELFARE  —  Masters (1) vs Econ (2)
+"welfare_11_vs_12",
+"welfare_11_vs_21",
+"welfare_21_vs_22",
+"welfare_12_vs_22",
+"welfare_11_vs_22",
+
+
+POLICY  —  Replacement rate analysis  (Repl_0=primary, Repl_2=econ)
+
+Homogeneous (both groups same rate):
+"policy_repl_homo_05",
+"policy_repl_homo_06",
+"policy_repl_homo_07",
+"policy_repl_homo_08",
+"policy_repl_homo_09",
+
+Heterogeneous (primary=0.9, econ lower):
+"policy_repl_hetero_09_05",
+"policy_repl_hetero_09_06",
+"policy_repl_hetero_09_07",
+"policy_repl_hetero_09_08",
+
+Heterogeneous inverted (econ=0.9, primary lower — 5% steps):
+"policy_repl_hetero_inv_085_09",
+"policy_repl_hetero_inv_08_09",
+"policy_repl_hetero_inv_075_09",
+"policy_repl_hetero_inv_07_09",
+"policy_repl_hetero_inv_065_09",
+"policy_repl_hetero_inv_06_09",
+"policy_repl_hetero_inv_055_09",
+"policy_repl_hetero_inv_05_09",

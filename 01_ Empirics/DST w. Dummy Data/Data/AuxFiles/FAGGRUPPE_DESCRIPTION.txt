@@ -1,0 +1,11 @@
+faggruppe;desc
+1;Humanities
+2;Social Sciences
+3;Natural Sciences
+4;Technology and Engineering
+5;Health and Medicine
+6;Agriculture and Veterinary
+7;Education and Teaching
+8;Business and Economics
+9;Arts and Culture
+10;General and Services

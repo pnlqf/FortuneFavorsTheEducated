@@ -1,0 +1,7 @@
+hoofdomraade;description
+1;Primary School
+2;Vocational Training
+3;Applied Education
+4;Bachelor Programs
+5;University Education
+6;PhD Programs
